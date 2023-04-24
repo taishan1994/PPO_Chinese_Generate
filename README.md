@@ -4,7 +4,7 @@ ChatGPT给我们带来了巨大的冲击，其原理大致可以分为三个步�
 
 ![image-20230424140455677](./README.assets/image-20230424140455677.png)
 
-（1）第一步：有监督微调。这里我把它成为generate_model。
+（1）第一步：有监督微调。这里我把它称为generate_model。
 
 （2）第二步：训练一个奖励模型。注意，这个奖励模型和generate_model不是一个模型，我把它称为reward_model。
 
