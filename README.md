@@ -259,7 +259,7 @@ print(text_generator(prompt + text[:5],
 
 **补充：**
 
-- 我们使用的GPT2为"uer/gpt2-chinese-cluecorpussmall"，在文本末尾加上了tokenizer里面的pad_token_id，也就是[PAD]，当解码时遇到[PAD]，通过设置eos_token_id=0（[PAD]对应的id），就结束解码。
+- 我们使用的GPT2为"uer/gpt2-chinese-cluecorpussmall"，我们在文本末尾加上了tokenizer里面的pad_token_id，也就是[PAD]，当解码时遇到[PAD]，通过设置eos_token_id=0（[PAD]对应的id），就结束解码。
 - 这里的奖励模型是情感分类模型，延申开来的话可以是任意的评价指标。
 - 只需要按照加载数据的方式准备好数据就可以迁移到其它数据集上了。
 
