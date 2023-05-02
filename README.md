@@ -269,4 +269,4 @@ print(text_generator(prompt + text[:5],
 >
 > [[trl_peft\]微调GPT2来生成正面评论 | Kaggle](https://www.kaggle.com/code/tenffe/trl-peft-gpt2)
 >
-> [lvwerra/trl: Train transformer language models with reinforcement learning. (github.com)](https://github.com/lvwerra/trl)我呢
+> [lvwerra/trl: Train transformer language models with reinforcement learning. (github.com)](https://github.com/lvwerra/trl)
